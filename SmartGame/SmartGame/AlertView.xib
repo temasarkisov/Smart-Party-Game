@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="LG-Bold.ttf">
+            <string>LucidaGrande-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AlertView" customModule="SmartGame" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="299" height="195"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert" translatesAutoresizingMaskIntoConstraints="NO" id="W2J-0T-DSK">
+                    <rect key="frame" x="0.0" y="0.0" width="299" height="195"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3h4-gV-DS4" customClass="buttonAlert" customModule="SmartGame" customModuleProvider="target">
+                    <rect key="frame" x="109.5" y="123" width="80" height="38"/>
+                    <color key="backgroundColor" red="0.99607843139999996" green="0.38823529410000002" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="RiE-my-st4"/>
+                        <constraint firstAttribute="height" constant="38" id="yD6-zK-Cjs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="21"/>
+                    <state key="normal" title="OK">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="actionButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="qfQ-KT-2qx"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDs-EY-wRA">
+                    <rect key="frame" x="11.5" y="31" width="276" height="74"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="276" id="1Gy-In-Baz"/>
+                        <constraint firstAttribute="height" constant="74" id="uok-Bz-Eh2"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment>
+                            <string key="content">Выберите команды (&gt; 2),
+темы и сложность</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="20" name="LucidaGrande-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" lineHeightMultiple="1" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="W2J-0T-DSK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8tr-ch-Gxr"/>
+                <constraint firstItem="3h4-gV-DS4" firstAttribute="centerX" secondItem="W2J-0T-DSK" secondAttribute="centerX" id="DaR-zk-4nq"/>
+                <constraint firstItem="W2J-0T-DSK" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="HHK-uy-d5a"/>
+                <constraint firstItem="W2J-0T-DSK" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="RCo-FG-G6h"/>
+                <constraint firstItem="SDs-EY-wRA" firstAttribute="centerX" secondItem="W2J-0T-DSK" secondAttribute="centerX" id="Sbd-Uk-UN1"/>
+                <constraint firstItem="SDs-EY-wRA" firstAttribute="top" secondItem="W2J-0T-DSK" secondAttribute="top" constant="31" id="oK3-hp-lXg"/>
+                <constraint firstItem="3h4-gV-DS4" firstAttribute="bottom" secondItem="W2J-0T-DSK" secondAttribute="bottom" constant="-34" id="rQ6-R1-BTI"/>
+                <constraint firstItem="W2J-0T-DSK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="yps-N2-xnA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="button" destination="3h4-gV-DS4" id="Iew-HM-XOw"/>
+                <outlet property="label" destination="SDs-EY-wRA" id="RmQ-s5-K4C"/>
+            </connections>
+            <point key="canvasLocation" x="54.347826086956523" y="-124.88839285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="alert" width="323" height="210"/>
+    </resources>
+</document>

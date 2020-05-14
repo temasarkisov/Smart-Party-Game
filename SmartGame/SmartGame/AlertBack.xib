@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="LG-Bold.ttf">
+            <string>LucidaGrande-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AlertBack" customModule="SmartGame" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="299" height="195"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert" translatesAutoresizingMaskIntoConstraints="NO" id="CIY-5x-T0N">
+                    <rect key="frame" x="0.0" y="0.0" width="299" height="195"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="299" id="Q1n-2L-Mc6"/>
+                        <constraint firstAttribute="height" constant="195" id="QDZ-yR-lNk"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOR-H5-WH6" customClass="backButton" customModule="SmartGame" customModuleProvider="target">
+                    <rect key="frame" x="63" y="123" width="80" height="38"/>
+                    <color key="backgroundColor" red="0.99607843139999996" green="0.38823529410000002" blue="0.30588235289999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="mlZ-OZ-989"/>
+                        <constraint firstAttribute="width" secondItem="ZOR-H5-WH6" secondAttribute="height" multiplier="40:19" id="qWL-86-5c2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="20"/>
+                    <state key="normal" title="ДА">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="leftActionButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="HHM-DJ-bhj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tv1-kp-ien" customClass="backButton" customModule="SmartGame" customModuleProvider="target">
+                    <rect key="frame" x="161" y="123" width="80" height="38"/>
+                    <color key="backgroundColor" red="0.99607843139999996" green="0.38823529410000002" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Cyu-lE-SCz"/>
+                        <constraint firstAttribute="width" secondItem="tv1-kp-ien" secondAttribute="height" multiplier="40:19" id="R8Q-Ny-QOh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="20"/>
+                    <state key="normal" title="НЕТ">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="rightActionButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="hvF-C7-SJG"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Jg-gk-CyB">
+                    <rect key="frame" x="41" y="44" width="217" height="53"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="53" id="5dq-4e-chD"/>
+                        <constraint firstAttribute="width" constant="217" id="ka5-EN-i1y"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment>
+                            <string key="content">Вы уверены, что
+хотите выйти?</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="21" name="LucidaGrande-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="4" lineHeightMultiple="1" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7Jg-gk-CyB" secondAttribute="trailing" constant="41" id="12B-Fg-2H9"/>
+                <constraint firstItem="CIY-5x-T0N" firstAttribute="leading" secondItem="ZOR-H5-WH6" secondAttribute="trailing" constant="-143" id="1ip-W5-kus"/>
+                <constraint firstItem="7Jg-gk-CyB" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="41" id="5LF-nl-9xw"/>
+                <constraint firstItem="tv1-kp-ien" firstAttribute="bottom" secondItem="CIY-5x-T0N" secondAttribute="bottom" constant="-34" id="7VO-3g-7kK"/>
+                <constraint firstItem="CIY-5x-T0N" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="KL0-IE-LJA"/>
+                <constraint firstItem="7Jg-gk-CyB" firstAttribute="top" secondItem="CIY-5x-T0N" secondAttribute="top" constant="44" id="PDB-Sd-WyN"/>
+                <constraint firstItem="ZOR-H5-WH6" firstAttribute="bottom" secondItem="CIY-5x-T0N" secondAttribute="bottom" constant="-34" id="SYt-cm-PtZ"/>
+                <constraint firstItem="tv1-kp-ien" firstAttribute="leading" secondItem="CIY-5x-T0N" secondAttribute="trailing" constant="-138" id="VD9-pG-NuR"/>
+                <constraint firstItem="CIY-5x-T0N" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="WZY-jf-UWO"/>
+                <constraint firstItem="CIY-5x-T0N" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dNK-hv-n6E"/>
+                <constraint firstItem="CIY-5x-T0N" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="j9p-U0-JZJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="leftButton" destination="ZOR-H5-WH6" id="xdb-Tv-kA7"/>
+                <outlet property="rightButton" destination="tv1-kp-ien" id="Yrf-pn-oS0"/>
+            </connections>
+            <point key="canvasLocation" x="54.347826086956523" y="-108.81696428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="alert" width="323" height="210"/>
+    </resources>
+</document>

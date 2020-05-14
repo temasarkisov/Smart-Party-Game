@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "134A6AE2-395E-4401-AFFC-0D946AF60055"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EF77D71-A6B4-4970-8BC5-433BF572CF5D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartGame/VC/MainMenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "preferredStatusBarStyle"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D03F6770-55E0-4DA7-B491-1F2BA9F66255"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartGame/VC/MainMenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "MainMenuViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "D03F6770-55E0-4DA7-B491-1F2BA9F66255 - d8ddd6cb9c7888b0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartGame.MainMenuViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SmartGame.MainMenuViewController"
+                  moduleName = "SmartGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pawtoporkov/proekt/SmartGame/SmartGame/SmartGame/VC/MainMenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "D03F6770-55E0-4DA7-B491-1F2BA9F66255 - 6a5cccea891959a1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartGame.MainMenuViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SmartGame.MainMenuViewController"
+                  moduleName = "SmartGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pawtoporkov/proekt/SmartGame/SmartGame/SmartGame/VC/MainMenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "D03F6770-55E0-4DA7-B491-1F2BA9F66255 - da695ff7b408c780"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartGame.MainMenuViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SmartGame.MainMenuViewController&gt;"
+                  moduleName = "SmartGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pawtoporkov/proekt/SmartGame/SmartGame/SmartGame/VC/MainMenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "D03F6770-55E0-4DA7-B491-1F2BA9F66255 - ce6bbfbbcf239c95"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartGame.MainMenuViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SmartGame.MainMenuViewController&gt;"
+                  moduleName = "SmartGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pawtoporkov/proekt/SmartGame/SmartGame/SmartGame/VC/MainMenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
